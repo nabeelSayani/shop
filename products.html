@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="products.css">
+</head>
+<body>
+    <header>
+        <h1>Products Available</h1>
+      </header>
+    <center><IMG SRC = "picb.jpg" border="2" alt="goals" ></center>
+<div class="product-container">
+    <div class="product-card">
+        <img src="a.jpg" alt="Product 1" class="product-image">
+        <h2 class="product-title">Ginger Man</h2>
+        <p class="product-price">ksh 200</p>
+        <button onclick="addToCart('Product 1', 200)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="b.jpg" alt="Product 2" class="product-image">
+        <h2 class="product-title">Strawberry Craze</h2>
+        <p class="product-price">ksh 500</p>
+        <button onclick="addToCart('Product 2', 500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="c.jpg" alt="Product 3" class="product-image">
+        <h2 class="product-title">Bubblegum Heart</h2>
+        <p class="product-price">ksh 350</p>
+        <button onclick="addToCart('Product 3', 350)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="d.jpg" alt="Product 4" class="product-image">
+        <h2 class="product-title">Oatmeal Cookie</h2>
+        <p class="product-price">ksh 250</p>
+        <button onclick="addToCart('Product 4', 250)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="e.jpg" alt="Product 5" class="product-image">
+        <h2 class="product-title">Sugar Rush</h2>
+        <p class="product-price">ksh 450</p>
+        <button onclick="addToCart('Product 5', 450)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="f.jpg" alt="Product 6" class="product-image">
+        <h2 class="product-title">Choco Mint</h2>
+        <p class="product-price">ksh 450</p>
+        <button onclick="addToCart('Product 6', 450)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="g.jpg" alt="Product 7" class="product-image">
+        <h2 class="product-title">Chocolate chip</h2>
+        <p class="product-price">ksh 550</p>
+        <button onclick="addToCart('Product 7', 550)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="h.jpg" alt="Product 8" class="product-image">
+        <h2 class="product-title">Snickerdoodle</h2>
+        <p class="product-price">ksh 900</p>
+        <button onclick="addToCart('Product 8', 900)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="i.jpg" alt="Product 9" class="product-image">
+        <h2 class="product-title">Peanut Butter</h2>
+        <p class="product-price">ksh 850</p>
+        <button onclick="addToCart('Product 9', 850)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="j.jpg" alt="Product 10" class="product-image">
+        <h2 class="product-title">Drop</h2>
+        <p class="product-price">ksh 500</p>
+        <button onclick="addToCart('Product 10', 500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="k.jpg" alt="Product 11" class="product-image">
+        <h2 class="product-title">Black & White </h2>
+        <p class="product-price">ksh 650</p>
+        <button onclick="addToCart('Product 11', 650)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="k.jpg" alt="Product 12" class="product-image">
+        <h2 class="product-title">Gingerbread</h2>
+        <p class="product-price">ksh 850</p>
+        <button onclick="addToCart('Product 11', 850)">Add to Cart</button>
+    </div>
+</div>
+
+    <div id="cart">
+        <h3>Shopping Cart</h3>
+        <div id="cart-items"></div>
+        <p>Total: ksh<span id="cart-total">0.00</span></p>
+    </div>
+    <nav style="align-items: center;">
+        <a href="index.html">Home</a> 
+        <a href="products.html">Products</a> 
+        <a href="contact.html">Reach us</a> 
+    </nav>
+    <footer>
+        <p>&copy; 2023 Edibles Shop. All rights reserved.</p>
+      </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
